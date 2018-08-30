@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+.container {
+	display: inline-block;
+	/*margin: 2%;*/
+	width: 100vmin;
+	height: 100vmin;
+
+}
+
+.box {
+	overflow: hidden;
+	box-sizing: border-box;
+/*	width: 30%;
+	height: 30%;*/
+	padding: 15.2%;
+	background: blue;
+	float: left;
+	border-radius: 10%;
+	/*border: 10px solid white;*/
+	margin: 1.4%;
+}
+
+.clear {
+	clear: both;
+}
