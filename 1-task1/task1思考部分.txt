@@ -1,0 +1,31 @@
+task1深度思考
+
+1.HTML文件里开头的Doctype有什么作用
+	为了指示web浏览器使用哪个版本的html进行编写的指令。
+	
+2.如何理解盒模型及其content、padding、border、margin？
+	盒模型即margin外边距+border边框+padding内边距+content（内容）(顺序从外到里)。
+	如果box-sizing是默认值的话，background的颜色就只会覆盖content和padding。
+	如果box-sizing设置为border-box的话，那么border也即是边框也会被覆盖在里面。
+
+3.常见的inline元素、block元素、inline-block元素有哪些？它们之间有什么区别
+	常见的inline：span a input label strong img
+	常见的block：div h1-h6 hr menu ol dl ul table pre noscript
+	inline-block： button del iframe ins map object script
+	区别是，block元素拥有自己的宽度和高度，即使宽度没有占满一行也会自动换行；而inline元素，默认没有换行符，高和宽都不能改变。
+	inline-block元素既显示inline元素的效果，又具有block元素的特征。例如margin和padding的上下也是有效的。
+
+4.如何使用浏览器的F12调试页面？
+	打开之后，显示Element的那一栏是html栏，styles是css栏，下面的console是控制台栏。通过左上角的select，可以直接点击页面内的某个元素对其进行html文件和css文件中的选中，方便调试。
+
+5.九宫格的布局你还能想到哪些办法实现？它们各自的优势劣势是什么？
+	现在使用的方法是div的嵌套，通过padding来实现方块的形成。
+	还可以使用ul，对li元素进行相同的设定。
+	没找出有什么不同……
+
+6.IDE是什么？它和文本编辑器相比有什么优缺点？
+	IDE的全名是集成开发工具，把代码编写功能、分析功能、编译功能等集成到了一起。
+	比起文本编辑器，优点是功能更全面，更加节省时间精力；缺点是学习有门槛，上手需要一定的时间。
+
+7.加和不加meta的viewport有什么区别？
+	viewport=可视区域，为了在移动端也能完整的观看网页，而不出现横向滚动条（如果是px单位的网页在手机上会显得太大）。
