@@ -4,93 +4,116 @@
 }
 
 body {
-    width: 640px;
-    height: 1010px;
+    /*640px*/
+    width: 100%;
+    height: 100vh;
     font-family: "Hiragino Sans GB",sans-serif;
     color: #fff;
+    font-size: 16px;
+    background: rgb(104,205,213);
 }
 
+
+
 .header {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     background: rgb(34,41,44);
-    /*width: 640px;*/
-    height: 94px;
+    height: 8vh; /* 88 */
     text-align: center;
-    padding-top: 24px;
+    padding-top: 2.2%;
+}
+
+.header-return {
+    float: left;
+    margin-left: 2.65625%;
+    height: 41%; /*36.8*/
+    width: 13.6%; /*87.4*/
+    margin-top: 2%;
 }
 
 .return-out {
     float: left;
-    margin-left: 17px;
+    height: 100%;
+    width: 25.2%; /* 22 */
+}
+
+.header-return-text {
+    float: left;
+    margin-left: 12%;
+    font-size: 162.5%;
+
 }
 
 .header-name {
     color: #FFF;
-    width: 36px;
-    height: 71px;
-    font-size: 34px;
+    width: 5.625%;
+    height: 71%;
+    margin-top: -29%;
+    font-size: 212.5%;
 }
 
 .more {
     float: right;
-    margin-right: 17px;
+    margin-right: 2.65%;
+    margin-top: 2%;
 }
 
 .container {
-    width: 640px;
-    height: 100%;
-    background: rgb(104,205,213);
+    width: 100%;
+    height: 98vh; /*990*/
+
     text-align: center;
 }
 
 .return-in {
-    width: 56px;
-    height: 55px;
-    margin: 35px;
+    width: 8.75%;
+    height: 5.56%;
+    margin: 5.4%;
     float: left;
 }
 
 .icon {
-    width: 183px;
-    height: 73px;
-    margin: 60px 262px 0 199px;
+    width: 28.6%;
+    height: 7.3%;
+    margin: 6.6% 41% 0 31.1%;
 }
 
 .description {
-    width: 451px;
-    height: 194px;
-    font-size: 30px;
+    text-align: left;
+    font-weight: lighter;
+    width: 70%;
+    height: 20%;
+    font-size: 187.5%;
     margin: 0 auto;
-    padding-top: 120px;
+    padding-top: 18.75%;
+    line-height: 150%;
 }
 
 .contact1 {
     float: left;
-    width: 121px;
-    height: 127px;
-    padding-top: 175px;
-    padding-left: 122px;
+    width: 18.9%;
+    height: 12.8%; /*127*/
+    padding-top: 27.34%;
+    padding-left: 19.1%;
     list-style-type: none;
 }
 
 .contact2 {
     float: right;
-    width: 121px;
-    height: 127px;
-    padding-top: 175px;
-    padding-right: 122px;
+    width: 18.9%; /*121*/
+    height: 12.8%;
+    padding-top: 27.34%;
+    padding-right: 19.1%;
     list-style-type: none;
 }
 
 ul .img1 {
     background: url("task3-05.png") 0 0 no-repeat;
-    height: 85px;
-    margin-left: 15px;
+    height: 67%;
+    margin-left: 12.3%;
 }
 
 ul .img2 {
     background: url("task3-06.png") 0 0 no-repeat;
-    height: 85px;
-    margin-left: 15px;
+    height: 67%;
+    margin-left: 12.3%;
 }
