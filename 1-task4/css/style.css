@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*设计稿尺寸 720X1080px*/
+
+html {
+    font-size: 625%;
+}
+
+body {
+    background: RGB(239,240,244);
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 90px;
+    background: #5fc0cd;
+    color: #ecf1f4;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sign,
+.close {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 32px;
+    z-index: 2;
+}
+
+.close {
+    right: 30px;
+    left: auto;
+    z-index: 2;
+}
+
+.login {
+    position: absolute;
+    font-size: 36px;
+    top: 27px;
+
+}
+
+form .tel,
+form .pw {
+    background: white;
+    text-align: left;
+    height: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+    /*margin-bottom: 20px;*/
+}
+
+.tel input,
+.pw input {
+    height: inherit;
+    width: 60%;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 1;
+    left: 120px;
+    right: 0;
+    border: 0;
+    padding-left: 34px;
+    font-size: 32px;
+
+}
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #eaedee;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #eaedee;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #eaedee;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #eaedee;
+}
+
+.tel img,
+.pw img {
+    height: 40px;
+    width: 27px;
+    position: absolute;
+    left: 44px;
+    padding-right: 44px;
+    top: 140px;
+    border-right: 1px solid #eaedee;
+}
+
+.pw img {
+    top: 260px
+}
+
+button {
+    background: #5fc0cd;
+    height: 100px;
+    width: 100%;
+    margin-top: 70px;
+    border: 0;
+    font-size: 36px;
+    color: #ecf1f4;
+}
+
+.forget {
+    font-size: 32px;
+    position: absolute;
+    right: 30px;
+    top: 500px;
+    margin-top: 20px;
+    color: #5fc0cd;
+}
