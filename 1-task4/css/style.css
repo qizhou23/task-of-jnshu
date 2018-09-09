@@ -6,7 +6,7 @@
 /*设计稿尺寸 720X1080px*/
 
 html {
-    font-size: 625%;
+    font-size: 400%;
 }
 
 body {
@@ -16,41 +16,41 @@ body {
 
 header {
     width: 100vw;
-    height: 90px;
+    height: 0.9rem;
     background: #5fc0cd;
     color: #ecf1f4;
-    font-size: 16px;
+    font-size: 0.16rem;
     text-align: center;
 }
 
 .sign,
 .close {
     position: absolute;
-    left: 30px;
-    top: 30px;
-    font-size: 32px;
+    left: 0.3rem;
+    top: 0.25rem;
+    font-size: 0.32rem;
     z-index: 2;
 }
 
 .close {
-    right: 30px;
+    right: 0.3rem;
     left: auto;
     z-index: 2;
 }
 
 .login {
     position: absolute;
-    font-size: 36px;
-    top: 27px;
-
+    font-size: 0.36rem;
+    top: 0.19rem;
+    left: 48%;
 }
 
 form .tel,
 form .pw {
     background: white;
     text-align: left;
-    height: 100px;
-    margin-top: 20px;
+    height: 1rem;
+    margin-top: 0.2rem;
     overflow: hidden;
     /*margin-bottom: 20px;*/
 }
@@ -62,12 +62,11 @@ form .pw {
     position: absolute;
     box-sizing: border-box;
     z-index: 1;
-    left: 120px;
+    left: 1.2rem;
     right: 0;
     border: 0;
-    padding-left: 34px;
-    font-size: 32px;
-
+    padding-left: 0.34rem;
+    font-size: 0.32rem;
 }
 
 input::-webkit-input-placeholder { /* WebKit browsers */
@@ -85,34 +84,34 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 
 .tel img,
 .pw img {
-    height: 40px;
-    width: 27px;
+    height: 0.4rem;
+    width: 0.27rem;
     position: absolute;
-    left: 44px;
-    padding-right: 44px;
-    top: 140px;
+    left: 0.44rem;
+    padding-right: 0.44rem;
+    top: 1.4rem;
     border-right: 1px solid #eaedee;
 }
 
 .pw img {
-    top: 260px
+    top: 2.6rem;
 }
 
 button {
     background: #5fc0cd;
-    height: 100px;
+    height: 1rem;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 0.7rem;
     border: 0;
-    font-size: 36px;
+    font-size: 0.36rem;
     color: #ecf1f4;
 }
 
 .forget {
-    font-size: 32px;
+    font-size: 0.32rem;
     position: absolute;
-    right: 30px;
-    top: 500px;
-    margin-top: 20px;
+    right: 0.3rem;
+    top: 5rem;
+    margin-top: 0.2rem;
     color: #5fc0cd;
 }
