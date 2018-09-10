@@ -39,10 +39,10 @@ header {
 }
 
 .login {
-    position: absolute;
+    /*position: absolute;*/
+    display: inline-block;
     font-size: 0.36rem;
-    top: 0.19rem;
-    left: 48%;
+    margin-top: 0.19rem;
 }
 
 form .tel,
@@ -82,6 +82,22 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
     color: #eaedee;
 }
 
+.tel input:focus,
+.pw input:focus {
+    /*border: white px solid !important;*/
+    outline: none;
+    background: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+}
+
+input[type="number"]{
+    -moz-appearance:textfield;
+}
+
 .tel img,
 .pw img {
     height: 0.4rem;
@@ -114,4 +130,24 @@ button {
     top: 5rem;
     margin-top: 0.2rem;
     color: #5fc0cd;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        width: 320px;
+    }
+    header {
+        width: 320px;
+    }
+    .close {
+        right: 0;
+        left: 259.8px;
+        width: 40.950px;
+    }
+
+    .forget {
+        right: 0;
+        left: 209.025px;
+        width: 91.775px;
+    }
 }
