@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 400%;
+}
+
+body {
+    font-size: 0.32rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background: #5fc0cd;
+    height: 0.95rem;
+    width: 100%;
+    font-size: 0.36rem;
+    text-align: center;
+    color: white;
+    padding-top: 0.22rem;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+header img {
+    float: left;
+    margin-left: 0.35rem;
+}
+
+.avatar {
+    background: url("../images/background-doctor.png") no-repeat;
+    background-size: cover;
+    /*background-blend-mode: multiply;*/
+    /*mix-blend-mode: darken;*/
+    width: 100%;
+    height: 3.3rem;
+    margin-top: 0.95rem;
+    padding-top: 0.85rem;
+}
+
+.avatar .cover {
+    background: black;
+    opacity: 0.2;
+    position: absolute;
+    top: 0.95rem;
+    z-index: 1;
+    background-size: 100% 3.25rem;
+    width: 100%;
+    height: 4.15rem;
+}
+
+.avatar-picture {
+    position: absolute;
+    left: 0.3rem;
+    height: 1.7rem;
+    width: 1.7rem;
+    z-index: 2;
+}
+
+.name-age,
+.location {
+    position: absolute;
+    left: 2.4rem;
+    top: 2.195rem;
+    color: white;
+    z-index: 1;
+}
+
+.name-age .name {
+    font-size: 0.36rem;
+    margin-right: 0.3rem;
+}
+
+.name-age .age {
+    font-size: 0.28rem;
+}
+
+.location {
+    margin: 0.6rem 0.1rem 0 0.05rem;
+}
+
+.location-picture {
+    width: 0.18rem;
+    height: 0.23rem;
+}
+
+.location span {
+    font-size: 0.24rem;
+}
+
+.information {
+    /*margin-left: 0.3rem;*/
+    overflow-x: hidden;
+}
+
+.line {
+    width: 100vw;
+    margin-left: 0.3rem;
+    border-bottom: #e1e5e7 1px solid;
+}
+
+.block {
+    border-left: #5fc0cd 3px solid;
+    height: 0.3rem;
+    width: 0.3rem;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.08rem;
+}
+
+.information .skill-title {
+    font-size: 0.32rem;
+    margin: 0.36rem 0 0.36rem -0.3rem;
+    padding-left: 0.3rem;
+    height: 0.23rem;
+}
+
+.information ul {
+    list-style-image: url("../images/star.png");
+    height: 1rem;
+    background-size: 0.24rem 0.23rem;
+    border-bottom: 1px #e1e5e7 solid;
+    box-sizing: border-box;
+    padding-left: 0.3rem;
+    margin-left: 0.6rem;
+}
+
+.information ul li {
+    float: left;
+    margin-top: 0.35rem;
+    padding: 0 0.2rem 0 0.1rem;
+    margin-left: 0.3rem;
+    /*border: 1px solid;*/
+}
+
+.information li:nth-child(1) {
+    border-right: #e1e5e7 1px solid;
+}
+
+.information li:nth-child(2) {
+    margin-left: 0.5rem;
+    /*border-left: #e1e5e7 1px solid;*/
+    /*background: red;*/
+}
+
+table {
+    /*margin-bottom: 1rem;*/
+    margin: 0 0 1rem 0;
+    border: #e1e5e7 solid;
+    border-width: 1px 0 1px 0;
+}
+
+/*title*/
+table td:nth-child(odd) {
+    /*height: 1rem;*/
+    width: 1.8rem;
+    color: #999999;
+    float: left;
+    margin-left: 0.3rem;
+    padding: 0.35rem 0.3rem 0.35rem 0;
+    border-right: #e1e5e7 1px solid;
+    /*border-bottom: 1px #e1e5e7 solid;*/
+}
+
+table td:nth-child(even) {
+    color: #333333;
+    border-bottom: 1px #e1e5e7 solid;
+}
+
+table #price {
+    color: #e26163;
+    font-weight: bold;
+}
+
+button {
+    width: 43.1%;
+    height: 0.9rem;
+    background: white;
+    border: #5fc0cd 1.5px solid;
+    border-radius: 10px;
+    font-size: 0.34rem;
+    color: #5fc0cd;
+    margin-left: 4.5%;
+}
+
+.tel {
+    background: #5fc0cd;
+    color: #fff;
+    margin: 0 3.2% 0 4.5%;
+}
