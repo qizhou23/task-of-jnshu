@@ -169,6 +169,7 @@ header img {
 
 .title {
     width: 1.8rem;
+    box-sizing: border-box;
     text-align: center;
     border-right: #e1e5e7 1px solid;
     color: #999999;
@@ -183,10 +184,8 @@ header img {
 
 .last-row {
     height: auto;
-    text-wrap: normal;
-    margin: 0.2rem 0 0 0.3rem;
-    padding-right: 0.9rem;
-    padding-bottom: 0.2rem;
+    margin: 0.2rem 0 0 0;
+    padding: 0 0.9rem 0.2rem 0.3rem;
 }
 
 .price {
