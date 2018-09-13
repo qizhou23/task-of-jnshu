@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*按照360px的屏幕+100px来开发*/
+html {
+    font-size: 100px;
+}
+
+header {
+    background: #5fc0cd;
+    height: 0.48rem;
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header .btn {
+    background: white;
+    color: #5fc0cd;
+    margin: 0;
+    height: 0.325rem;
+    width: 0.725rem;
+    flex: 1;
+}
+
+header .btn-checked {
+    background: #55a8b3;
+    color: #fff;
+}
+
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+    border-radius: 4px;
+}
+
+header img {
+    width: 0.225rem;
+    height: 0.24rem;
+    position: absolute;
+    right: 0.15rem;
+    /*这里是因为flex布局的align-items:center;垂直居中的吗？*/
+}
+
+.main .selector {
+    border-bottom: 1px #e1e5e7 solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .selector button {
+    flex: 1;
+    height: 0.3rem;
+    margin-top: 0.05rem;
+    margin-bottom: 0.05rem;
+    margin-right: 0;
+    padding-right: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    border-width: 0 1px 0 0;
+    border-color: #e1e5e7;
+}
+
+.main .selector .caret {
+    display: inline-block;
+    margin-left: 27.5%;
+    margin-right: 5%;
+}
