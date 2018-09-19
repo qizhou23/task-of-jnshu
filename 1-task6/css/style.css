@@ -8,6 +8,10 @@ html {
     font-size: 100px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     background: #5fc0cd;
     height: 0.48rem;
@@ -48,6 +52,7 @@ header img {
     width: 100vw;
     margin: 0;
     height: 0.4rem;
+    border-bottom: #e1e5e7 1px solid;
 }
 
 .dropdown {
@@ -56,12 +61,16 @@ header img {
 }
 
 .dropdown button {
+    margin-top: 0.05rem;
+    margin-bottom: 0.05rem;
     width: 100%;
-    height: 0.4rem;
+    height: 0.3rem;
     border-radius: 0;
     font-size: 0.14rem;
     color: #999;
     padding: 0;
+    border: 0;
+    border-right: #e1e5e7 1px solid;
 }
 
 .dropdown button .caret {
@@ -73,44 +82,158 @@ header img {
 .dropdown .title {
     display: inline-block;
     margin: 0.08rem 0 0.08rem 0;
-
 }
 
 /*
  * main
  */
+
+.icon {
+    display: inline-block;
+    background: url("../images/css_sprites.png") 0 0 no-repeat;
+    -webkit-background-size: 86px 62.5px;
+    background-size: 86px 62.5px;
+}
+
 ul {
     list-style-type: none;
+    border-bottom: #e1e5e7 1px solid;
+    font-size: 0.14rem;
+    margin-bottom: 0;
 }
 
-li .date-icon {
-    background-position: -138px -10px;
-    width: 20px;
+ul .icon {
     height: 20px;
+    margin-left: 0.15rem;
+    padding-left: 0.19rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.1rem;
+    color: #999;
+    font-weight: lighter;
 }
 
+ul .service-date-icon {
+    background-position: -69px -2px;
+}
 
+ul ul {
+    border-bottom: 0;
+    margin-left: 0.35rem;
+}
 
+ul ul li {
+    display: inline-block;
+}
+
+ul ul .price,
+ul ul .intro{
+    float: right;
+    font-size: 0.15rem;
+    color: #e63b0e;
+}
+
+ul ul .intro {
+    background: url("../images/intro.png") no-repeat;
+    background-size: 10px 18px;
+    width: 0.1rem;
+    height: 0.18rem;
+    margin-left: 0.1rem;
+    margin-right: 0.17rem;
+}
+
+ul .location-icon {
+    background-position: -69px -23px;
+    width: 85vw;
+    margin-top: 0.1rem;
+    margin-bottom: 0.15rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.last-row {
+    margin-bottom: 0.5rem;
+}
 
 /*
 * footer
 */
 footer {
+    display: block;
     position: fixed;
     bottom: 0;
     height: 0.5rem;
     width: 100vw;
+    background: #f8fafb;
+    text-align: center;
+    border-top: #e1e5e7 1px solid;
 }
 
-.icon {
+footer a {
     display: inline-block;
-    background: url("../images/css_sprites.png") 0 0 no-repeat;
-    height: 21px;
-    width: 23px;
-    float: left;
+}
+
+footer a .icon {
+    width: 0.23rem;
+    height: 0.2rem;
+    /*margin-left: 0.02rem;*/
 }
 
 a .main-icon {
-    background-position: -72px -10px;
-    background-size: 23px 21px;
+    background-position: -36px -5px;
+}
+
+footer .write-icon {
+    width: 0.2rem;
+    height: 0.205rem;
+    background-position: -36px -37px;
+    margin: 0.12rem 0.13rem 0.12rem 0.13rem;
+}
+
+.write {
+    display: inline-block;
+    background: #5fc0cd;
+    height: 0.48rem;
+    width: 0.48rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    /*margin: 0 auto;*/
+}
+
+a .myself-icon {
+    background-position: -5px -37px;
+}
+
+footer .main-page p {
+    padding-left: 2px;
+}
+
+.main-page,
+.myself {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.main-page {
+    float: left;
+    margin-left: 21.5%;
+    margin-top: 0.07rem;
+    color: #5fc0cd;
+}
+
+.myself {
+    float: right;
+    margin-right: 21.5%;
+    margin-top: 0.07rem;
+    color: #999;
+}
+
+.main-page:hover {
+    text-decoration: none;
+    color: #5fc0cd;
+}
+
+.myself:hover {
+    text-decoration: none;
+    color: #999;
 }
