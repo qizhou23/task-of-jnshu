@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: #29bde0;
+}
+
+header {
+    height: 4.5rem;
+    width: 100vw;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    padding-top: 2rem;
+    background: #29bde0;
+    z-index: 100;
+}
+
+header img {
+    width: 2rem;
+    height: 2rem;
+}
+
+header .header-left {
+    float: left;
+    margin-left: 1.2rem;
+}
+
+header .header-right {
+    float: right;
+    margin-right: 1.2rem;
+}
+
+.music-background {
+    margin-top: 4.5rem;
+    background: #b9e9f5;
+    color: #464646;
+    line-height: 4rem;
+    height: 4rem;
+}
+
+.play-audio {
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+    text-align: center;
+    float: right;
+    margin: 0.8rem;
+}
+
+.music-background span {
+    margin-left: 2.3rem;
+    font-size: 1.3rem;
+}
+
+.btn {
+    padding: 0 7.5px;
+}
+
+.play-audio img {
+    height: 1.6rem;
+}
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-color: #b9e9f5 #29bde0 #29bde0 #29bde0;
+    border-width: 0.7rem 0.45rem 0 0.45rem;
+    border-style: solid;
+    margin-top: 0;
+    margin-left: 3.5rem;
+}
+
+.triangle + p {
+    margin-left: 3.6rem;
+    margin-top: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.people-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.people {
+    height: 9.5rem;
+    width: 5.9rem;
+    /*margin: 2rem 0 0 2rem;*/
+}
+
+.people-info {
+    box-sizing: border-box;
+    height: 6.9rem;
+    width: 6.9rem;
+    text-align: center;
+    border: #ffffff 3px solid;
+}
+
+.people-type {
+    background: #f5c97b;
+    line-height: 4.5rem;
+    text-align: center;
+    color: #565656;
+}
+
+.people-num {
+    background: #83b09a;
+    line-height: 1.8rem;
+    color: #e4ede8;
+}
+
+.people img {
+    width: 6.8rem;
+    visibility: hidden;
+}
+
+.people:hover img {
+    visibility: visible;
+}
+
+main {
+    margin-bottom: 10rem;
+}
+
+footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    height: 9.6rem;
+    background: #29bde0;
+    border-top: #fff 1px solid;
+    z-index: 10;
+    line-height: 9.6rem;
+    text-align: center;
+}
+
+footer .btn-warning {
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 4.5rem;
+    width: 75%;
+}

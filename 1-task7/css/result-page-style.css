@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    height: 4.5rem;
+    width: 100vw;
+    color: #fff;
+    font-size: 1.7rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background: #29bde0;
+    z-index: 100;
+    box-sizing: border-box;
+    border-bottom: 1px #fff solid;
+    line-height: 4.4rem;
+}
+
+header span {
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+header img {
+    width: 2.2rem;
+    margin-top: 1.4rem;
+}
+
+header .return-home {
+    float: left;
+    margin-left: 1.1rem;
+}
+
+header .more-info {
+    float: right;
+    margin-right: 1.1rem;
+}
+
+.result-info-short {
+    padding-top: 5.7rem;
+    text-align: center;
+    background: #29bde0;
+}
+
+.result-info-short img {
+    display: block;
+    width: 17.7rem;
+    height: 10.2rem;
+    margin: 0 auto;
+}
+
+.price-text {
+    margin: 1rem 4rem 3rem 4rem;
+    font-size: 1.55rem;
+    color: #ffc865;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.solution {
+    margin: 0 4rem;
+    text-align: left;
+    font-size: 1.3rem;
+    color: #ffffff;
+    padding-bottom: 1.2rem;
+}
+
+.solution p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.solution ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.solution li {
+    display: inline-flex;
+    width: 6.5rem;
+}
+
+.day {
+    padding: 0 4rem 1.8rem 4rem;
+    font-size: 1.3rem;
+    border-bottom: #dddddd 1px solid;
+}
+
+.day h4 {
+    display: inline-block;
+}
+
+.day .day-time {
+    float: right;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.day p {
+    margin: 0;
+    color: #a6a6a6;
+}
+
+.result-info-long {
+    margin-bottom: 7.5rem;
+}
+
+footer {
+    position: fixed;
+    width: 100vw;
+    height: 6.5rem;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    background: rgba(41,189,224,0.5);
+    z-index: 10;
+    /*opacity: 0.5;*/
+}
+
+footer .btn {
+    width: 42.5%;
+    height: 4.5rem;
+    opacity: 1;
+}
