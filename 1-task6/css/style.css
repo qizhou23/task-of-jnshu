@@ -92,6 +92,7 @@ header img {
 
 .dropdown-menu {
     width: 100%;
+    min-width: 100%;
 }
 
 /*
@@ -135,6 +136,13 @@ ul ul li {
     display: inline-block;
 }
 
+.service-date {
+    width: 50%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 ul ul .price,
 ul ul .intro{
     float: right;
@@ -153,9 +161,9 @@ ul ul .intro {
 
 ul .location-icon {
     background-position: -69px -23px;
-    width: 1.4rem;
     margin-top: 0.1rem;
     margin-bottom: 0.15rem;
+    width: 35%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
